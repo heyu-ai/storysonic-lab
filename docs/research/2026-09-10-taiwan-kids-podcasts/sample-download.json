@@ -1,0 +1,19 @@
+{
+  "title": "EP.131 袖珍娃娃屋奇案(上集)",
+  "url": "https://m.cdn.firstory.me/track/cklw2tvilfnda0804tdm3oxho/cms6gbyon1f1m01y1el807zgw/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fcklw2tvilfnda0804tdm3oxho%2Fcms6gbyon1f1n01y1g6xs4h71.mp3?v=1785428150884",
+  "resolved_url": "https://file.cdn.firstory.me/Record/cklw2tvilfnda0804tdm3oxho/cms6gbyon1f1n01y1g6xs4h71.mp3?v=1785428150884",
+  "status": 200,
+  "content_type": "audio/mpeg",
+  "content_length": "19980254",
+  "downloaded_bytes": 19980254,
+  "sha256": "620456c005f5fff94df6d6e8083d1cfe87c5a059ead49b2f25c920aa91ef8108",
+  "first_16_bytes_hex": "4944330400000000007d544954320000",
+  "rss_duration_seconds": 1248,
+  "ffprobe_duration_seconds": 1248.6878,
+  "ffprobe_codec": "mp3",
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "full_decode_exit_code": 0,
+  "audio_included_in_repository": false,
+  "provenance_note": "Verified in the original research workspace on 2026-09-10; the local file path is omitted in this shared snapshot."
+}

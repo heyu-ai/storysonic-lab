@@ -1,0 +1,16 @@
+# Spectra project settings. Run commands from the repository root.
+spec_dir: docs/openspec
+locale: tw
+tools:
+  - claude
+  - codex
+
+# Match the reference repository's implementation and audit workflow.
+tdd: true
+audit: true
+
+# Use generated skills; additional /spectra:X command aliases are unnecessary.
+claude_slash_commands: false
+
+# Keep checkout/worktree management with the coding agent, as in yibi-mvp.
+worktree: false

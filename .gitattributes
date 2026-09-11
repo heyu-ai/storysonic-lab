@@ -1,0 +1,2 @@
+# Preserve exported CSV snapshots byte-for-byte, including their CRLF row endings.
+*.csv -text whitespace=cr-at-eol
