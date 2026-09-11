@@ -1,0 +1,814 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "im:name": {
+          "label": "豬探長推理故事集"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/d4/1a/88/d41a8874-2bcb-3c64-c8cf-618a53329edf/mza_5862029093459577032.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/d4/1a/88/d41a8874-2bcb-3c64-c8cf-618a53329edf/mza_5862029093459577032.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/d4/1a/88/d41a8874-2bcb-3c64-c8cf-618a53329edf/mza_5862029093459577032.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "本節目由【如果兒童劇團】製作，每一季10集，5個故事，全新第七季上線中！每週五更新，訂閱別錯過 \n \n◆ 豬探長推理故事集 ◆ \n \n動物界知名偵探！偵破無數案件，獲頒警界最高榮譽「獅子王銀心十字勳章」的豬探長，出現在podcast了！讓你不論是通勤，還是走路時，都可以跟著豬探長憶起推裡解謎。 \n \n一聽就上癮的推理廣播劇，用「聽」的豬探長，明星風采立刻被圈粉，讓我們一起聽下去 \n \n小額贊助支持本節目： https://open.firstory.me/user/cklw2tvilfnda0804tdm3oxho \n \n———————————————— \n各類合作請洽：weisbetter@gmail.com \n———————————————— \n \n【豬探長動畫線上看】 \n►WOW豬探長：https://www.youtube.com/playlist?list=PL_jxGyWr7EJOqIb8WHHEj5SOGR0s8HHgZ \n►WOW聽故事：https://www.youtube.com/c/wowowstory/ \n \nPowered by Firstory Hosting"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 如果兒童劇團"
+        },
+        "title": {
+          "label": "豬探長推理故事集 - 如果兒童劇團"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E8%B1%AC%E6%8E%A2%E9%95%B7%E6%8E%A8%E7%90%86%E6%95%85%E4%BA%8B%E9%9B%86/id1559480667?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E8%B1%AC%E6%8E%A2%E9%95%B7%E6%8E%A8%E7%90%86%E6%95%85%E4%BA%8B%E9%9B%86/id1559480667?uo=2",
+          "attributes": {
+            "im:id": "1559480667"
+          }
+        },
+        "im:artist": {
+          "label": "如果兒童劇團"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-08-28T03:30:00-07:00",
+          "attributes": {
+            "label": "2026年08月28日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "從前從前"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/c6/d9/61/c6d9616f-99eb-4bd8-5443-f7b9cd81ec6b/mza_14493183628631760195.png/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/c6/d9/61/c6d9616f-99eb-4bd8-5443-f7b9cd81ec6b/mza_14493183628631760195.png/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/c6/d9/61/c6d9616f-99eb-4bd8-5443-f7b9cd81ec6b/mza_14493183628631760195.png/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "陪玩陪到頭昏腦脹？ \n快讓童話阿姨替你爭取一點休息放空的時間！ \n \n各種童書繪本、寓言童話，還有童話阿姨自創的爆笑故事！從說故事到角色扮演（有時候還要學動物叫聲😂），童話阿姨全部一口包辦！ \n \n⏰每週三上午10:30更新 \n \n \nFacebook｜IG 搜尋：從前從前 \n各類合作請洽：AuntieFairytale@gmail.com"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 童話阿姨"
+        },
+        "title": {
+          "label": "從前從前 - 童話阿姨"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E5%BE%9E%E5%89%8D%E5%BE%9E%E5%89%8D/id1535319502?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E5%BE%9E%E5%89%8D%E5%BE%9E%E5%89%8D/id1535319502?uo=2",
+          "attributes": {
+            "im:id": "1535319502"
+          }
+        },
+        "im:artist": {
+          "label": "童話阿姨"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-09-01T19:17:00-07:00",
+          "attributes": {
+            "label": "2026年09月01日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "聽故事學英文"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8a/61/fd/8a61fde1-7d17-bc07-c48e-9b1bfe315125/mza_8679556483697071405.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8a/61/fd/8a61fde1-7d17-bc07-c48e-9b1bfe315125/mza_8679556483697071405.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8a/61/fd/8a61fde1-7d17-bc07-c48e-9b1bfe315125/mza_8679556483697071405.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "\\\\第60屆廣播金鐘獎入圍肯定// \n \n學英文，從聽故事開始！透過中/英雙語故事＆歌曲，貼近2-12歲兒童的日常生活情境，讓英文不再是刻意又彆扭的存在。 \nStories grow curious and confident language learners. We chat in both Mandarin Chinese and English to share original stories, silly songs, and kids news to help children feel brave and excited to learn English. \n \nPowered by Firstory Hosting"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© Sandy采聿老師"
+        },
+        "title": {
+          "label": "聽故事學英文 - Sandy采聿老師"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E8%81%BD%E6%95%85%E4%BA%8B%E5%AD%B8%E8%8B%B1%E6%96%87/id1528196420?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E8%81%BD%E6%95%85%E4%BA%8B%E5%AD%B8%E8%8B%B1%E6%96%87/id1528196420?uo=2",
+          "attributes": {
+            "im:id": "1528196420"
+          }
+        },
+        "im:artist": {
+          "label": "Sandy采聿老師"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-09-03T23:15:00-07:00",
+          "attributes": {
+            "label": "2026年09月03日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "水獺媽媽巧巧話｜聽巧慧說故事學台語！"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/cd/fa/39/cdfa39fc-d8aa-ce4e-3775-017eff265c12/mza_6463128021884643891.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/cd/fa/39/cdfa39fc-d8aa-ce4e-3775-017eff265c12/mza_6463128021884643891.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/cd/fa/39/cdfa39fc-d8aa-ce4e-3775-017eff265c12/mza_6463128021884643891.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "Hi！我是水獺媽媽蘇巧慧 🦦\n在這裡，不只可以聽故事，還能學台語！\n歡迎大朋友、小朋友，一起進入水獺媽媽的說故事世界！\n\n用故事拉近親子間的距離，\n用繪本和孩子談重要的事。\n\n各種耳熟能詳的經典故事，\n還有台灣原創故事繪本、母語故事繪本，\n讓孩子們聽見更多好故事。\n\n🎧 每週四更新，敬請期待！\n\n合作出版社（依授權順序）：\n小魯文化\n未來親子學習平台　小天下\n後青春繪本館\n水滴文化\n妙蒜工作室\n步步出版\n玉山社／星月書房\n任勢知識\n信誼基金出版社\n上誼文化公司\n小熊出版\n韋伯文化\n唯心科技\n愛智圖書\n米奇巴克出版社\n親子天下\n小康軒\n阿布拉教育文化\n臺灣吧與小黑啤\n薪展文化\n小文房\n字畝文化\n橙實文化\n台灣東方出版社\n天下生活出版\n小山丘\n大好書屋\n五南出版社\n衛生福利部社會及家庭署\n農業部林業及自然保育署\n小典藏出版社\n小光點\n風潮音樂\n聯經出版\n\nFacebook｜YouTube｜Instagram 搜尋：蘇巧慧、水獺媽媽巧慧與她的小夥伴\nApple｜Spotify｜KKBox｜i聽聽 搜尋訂閱：水獺媽媽巧巧話"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 蘇巧慧"
+        },
+        "title": {
+          "label": "水獺媽媽巧巧話｜聽巧慧說故事學台語！ - 蘇巧慧"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E6%B0%B4%E7%8D%BA%E5%AA%BD%E5%AA%BD%E5%B7%A7%E5%B7%A7%E8%A9%B1-%E8%81%BD%E5%B7%A7%E6%85%A7%E8%AA%AA%E6%95%85%E4%BA%8B%E5%AD%B8%E5%8F%B0%E8%AA%9E/id1525687063?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E6%B0%B4%E7%8D%BA%E5%AA%BD%E5%AA%BD%E5%B7%A7%E5%B7%A7%E8%A9%B1-%E8%81%BD%E5%B7%A7%E6%85%A7%E8%AA%AA%E6%95%85%E4%BA%8B%E5%AD%B8%E5%8F%B0%E8%AA%9E/id1525687063?uo=2",
+          "attributes": {
+            "im:id": "1525687063"
+          }
+        },
+        "im:artist": {
+          "label": "蘇巧慧"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-09-03T00:00:00-07:00",
+          "attributes": {
+            "label": "2026年09月03日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "一起說故事"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c9/85/f8/c985f800-a8de-3b21-7cd7-eb003fb246ed/mza_4970855239979059402.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c9/85/f8/c985f800-a8de-3b21-7cd7-eb003fb246ed/mza_4970855239979059402.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c9/85/f8/c985f800-a8de-3b21-7cd7-eb003fb246ed/mza_4970855239979059402.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "＊榮獲第60屆廣播金鐘獎＊ \n每個月都會有新故事喔！若訂閱後未顯示最新集數，請透過官網客服聯繫，我們會協助您解決！ \n每週五上架的新節目，共分為三個單元： \n1. 單集故事｜第 1、2 週週五更新：根據聽眾投稿發想劇本，獨立成篇。 \n2.《哈囉！是一起說故事嗎？》｜第 3 週週五更新：由聽眾錄音提問、節目角色回覆。 \n3.《阿多事務所》｜第 4 週五更新：VIP 會員專屬系列故事，可參與劇情發展。還有已完結的超好聽系列故事《強強歷險記》。 \n*《經典重映單元》為額外新增內容，不影響上述更新。 \n*部分月份有第五週，該週五則停更休息一週。 \n-- \n官網：https://storytogether.club/ \n \n商業合作或收聽相關問題請來信：contact@storytogether.club \n \nPowered by Firstory Hosting"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 一起說故事"
+        },
+        "title": {
+          "label": "一起說故事 - 一起說故事"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E4%B8%80%E8%B5%B7%E8%AA%AA%E6%95%85%E4%BA%8B/id1530827619?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E4%B8%80%E8%B5%B7%E8%AA%AA%E6%95%85%E4%BA%8B/id1530827619?uo=2",
+          "attributes": {
+            "im:id": "1530827619"
+          }
+        },
+        "im:artist": {
+          "label": "一起說故事"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-09-11T09:00:00-07:00",
+          "attributes": {
+            "label": "2026年09月11日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "顛覆！故事STEAM"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/85/9c/83859c12-b470-e2be-fade-e05c97e8a850/mza_7232051034995799653.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/85/9c/83859c12-b470-e2be-fade-e05c97e8a850/mza_7232051034995799653.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/85/9c/83859c12-b470-e2be-fade-e05c97e8a850/mza_7232051034995799653.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "本節目所有內容，歡迎至IC之音網站《顛覆！故事STEAM》線上收聽：   https://pse.is/3gywrg    \n\n《顛覆！故事STEAM》即從兒童常聽的經典童話、歷史故事、世界名著之情節出發，提供顛覆的創新觀點或趣味改編，衍伸深入淺出的知識解析，涵蓋五大領域：科學（Science）、 科技（Technology）、工程（Engineering）、藝術（Art）以及數學（Math）。"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© All rights reserved"
+        },
+        "title": {
+          "label": "顛覆！故事STEAM - IC之音竹科廣播｜小青姐姐主持"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E9%A1%9B%E8%A6%86-%E6%95%85%E4%BA%8Bsteam/id1531654838?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E9%A1%9B%E8%A6%86-%E6%95%85%E4%BA%8Bsteam/id1531654838?uo=2",
+          "attributes": {
+            "im:id": "1531654838"
+          }
+        },
+        "im:artist": {
+          "label": "IC之音竹科廣播｜小青姐姐主持"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2022-12-11T16:00:00-07:00",
+          "attributes": {
+            "label": "2022年12月11日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "佳佳老師說故事"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/74/9c/88/749c884e-ce03-f3bb-518c-67b048206f4d/mza_6315209606875176362.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/74/9c/88/749c884e-ce03-f3bb-518c-67b048206f4d/mza_6315209606875176362.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/74/9c/88/749c884e-ce03-f3bb-518c-67b048206f4d/mza_6315209606875176362.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "大家好 我是佳佳老師   \n愛說故事給孩子聽的  佳佳老師 \n \n讓 孩子在任何時候 搭車 用餐 睡前 等待時 都可以聆聽故事  \n讓 孩子愛上閱讀 喜聽故事 \n讓 聽故事融入孩子的生活當中 \n讓 故事培養孩子的良好品格 \n讓 聽故事 啟發孩子們的 無限想像力 \n \n如 分享的故事 有冒犯您之處 \n請與我告知 我將馬上改善 謝謝 \n \n除了在Podcast關起手機螢幕聽之外 \n您也可以在YouTube上觀看佳佳老師說故事喔! \n★ https://bit.ly/3z9Ssjp \n \n★ 如果喜歡我的故事，可以支持我購買書籍，讓我有更多創作的動力喔! \n支持我購買書籍： https://bit.ly/3yXi96m​   感謝您的支持! \n \nPowered by Firstory Hosting"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 佳佳老師"
+        },
+        "title": {
+          "label": "佳佳老師說故事 - 佳佳老師"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E4%BD%B3%E4%BD%B3%E8%80%81%E5%B8%AB%E8%AA%AA%E6%95%85%E4%BA%8B/id1565512053?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E4%BD%B3%E4%BD%B3%E8%80%81%E5%B8%AB%E8%AA%AA%E6%95%85%E4%BA%8B/id1565512053?uo=2",
+          "attributes": {
+            "im:id": "1565512053"
+          }
+        },
+        "im:artist": {
+          "label": "佳佳老師"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-08-09T20:02:00-07:00",
+          "attributes": {
+            "label": "2026年08月09日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "媽爹講故事"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/97/70/e8/9770e894-99f0-b483-5537-a55ed4d66801/mza_2664453597737396042.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/97/70/e8/9770e894-99f0-b483-5537-a55ed4d66801/mza_2664453597737396042.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/97/70/e8/9770e894-99f0-b483-5537-a55ed4d66801/mza_2664453597737396042.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "現在下載《媽爹講故事》APP \n每天更新精彩有聲故事🎧👇 \nhttps://landing.momdadstory.com/story?s=podcast \n \n【品牌簡介】媽爹講故事是台灣兒童聽覺教育品牌，由親子網紅Mom&Dad主理，為孩子打造一個「從聽覺，啟程探索」的故事世界。 \n我們結合有聲體驗、自主探索、啟發成長三大核心理念，提供2000+個原創與改編內容，包含童話、科普、歷史、寓言、偵探推理等，搭配分齡設計，陪伴 0～12 歲孩子培養好奇心與自主學習力。 \n \n \n【聯繫我們】momanddadtheband@gmail.com \n \nPowered by Firstory Hosting"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© MOM&DAD"
+        },
+        "title": {
+          "label": "媽爹講故事 - MOM&DAD"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E5%AA%BD%E7%88%B9%E8%AC%9B%E6%95%85%E4%BA%8B/id1540526799?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E5%AA%BD%E7%88%B9%E8%AC%9B%E6%95%85%E4%BA%8B/id1540526799?uo=2",
+          "attributes": {
+            "im:id": "1540526799"
+          }
+        },
+        "im:artist": {
+          "label": "MOM&DAD"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-08-27T03:02:00-07:00",
+          "attributes": {
+            "label": "2026年08月27日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "我們家的睡前故事"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/4a/68/9b/4a689bc3-0fec-ffbe-2496-d6aa443860c5/mza_12973787599216441331.jpeg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/4a/68/9b/4a689bc3-0fec-ffbe-2496-d6aa443860c5/mza_12973787599216441331.jpeg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/4a/68/9b/4a689bc3-0fec-ffbe-2496-d6aa443860c5/mza_12973787599216441331.jpeg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "知名親子共讀推廣頻道【我們家的睡前故事】，由專業配音員許伯琴（小妹媽媽）及她開朗可愛的女兒（小妹）共同主持，有趣、歡樂、好聽又溫馨，是您與孩子睡前故事的首選，也是共讀的最佳示範。 \n \nPowered by Firstory Hosting"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 我們家的睡前故事"
+        },
+        "title": {
+          "label": "我們家的睡前故事 - 我們家的睡前故事"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E6%88%91%E5%80%91%E5%AE%B6%E7%9A%84%E7%9D%A1%E5%89%8D%E6%95%85%E4%BA%8B/id1532755821?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E6%88%91%E5%80%91%E5%AE%B6%E7%9A%84%E7%9D%A1%E5%89%8D%E6%95%85%E4%BA%8B/id1532755821?uo=2",
+          "attributes": {
+            "im:id": "1532755821"
+          }
+        },
+        "im:artist": {
+          "label": "我們家的睡前故事"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-09-08T15:02:00-07:00",
+          "attributes": {
+            "label": "2026年09月08日"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "強哥為你說故事"
+        },
+        "im:image": [
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/13/ba/4c/13ba4c47-ca1e-568f-aa84-2dce7d65f281/mza_9486349238835027597.jpg/55x55bb.png",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/13/ba/4c/13ba4c47-ca1e-568f-aa84-2dce7d65f281/mza_9486349238835027597.jpg/60x60bb.png",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/13/ba/4c/13ba4c47-ca1e-568f-aa84-2dce7d65f281/mza_9486349238835027597.jpg/170x170bb.png",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "summary": {
+          "label": "每週三、日晚上，讓強哥說故事給你聽 \n希望用這些好聽的故事，陪你長大。"
+        },
+        "im:price": {
+          "label": "取得",
+          "attributes": {
+            "amount": "0",
+            "currency": "TWD"
+          }
+        },
+        "im:contentType": {
+          "attributes": {
+            "term": "Podcast",
+            "label": "Podcast"
+          }
+        },
+        "rights": {
+          "label": "© 如果兒童劇團"
+        },
+        "title": {
+          "label": "強哥為你說故事 - 如果兒童劇團"
+        },
+        "link": {
+          "attributes": {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://podcasts.apple.com/tw/podcast/%E5%BC%B7%E5%93%A5%E7%82%BA%E4%BD%A0%E8%AA%AA%E6%95%85%E4%BA%8B/id1669389484?uo=2"
+          }
+        },
+        "id": {
+          "label": "https://podcasts.apple.com/tw/podcast/%E5%BC%B7%E5%93%A5%E7%82%BA%E4%BD%A0%E8%AA%AA%E6%95%85%E4%BA%8B/id1669389484?uo=2",
+          "attributes": {
+            "im:id": "1669389484"
+          }
+        },
+        "im:artist": {
+          "label": "如果兒童劇團"
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1520",
+            "term": "Stories for Kids",
+            "scheme": "https://podcasts.apple.com/tw/genre/podcast-%E5%85%92%E7%AB%A5%E8%88%87%E5%AE%B6%E5%BA%AD-%E5%85%92%E7%AB%A5%E6%95%85%E4%BA%8B/id1520?uo=2",
+            "label": "兒童故事"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2026-08-30T07:00:00-07:00",
+          "attributes": {
+            "label": "2026年08月30日"
+          }
+        }
+      }
+    ],
+    "updated": {
+      "label": "2026-09-10T08:43:57-07:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store：熱門Stories for Kids Podcast"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://podcasts.apple.com/WebObjects/MZStore.woa/wa/viewTop?cc=tw&id=196619&popId=3"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/tw/rss/toppodcasts/limit=10/genre=1520/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/tw/rss/toppodcasts/limit=10/genre=1520/json"
+    }
+  }
+}
