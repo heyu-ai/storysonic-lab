@@ -1,0 +1,13 @@
+services:
+  worker:
+    build: .
+    image: storysonic-lab:0.2.0
+    init: true
+    working_dir: /work
+    volumes:
+      - ./podcasts.toml:/work/podcasts.toml:ro
+      - ./content:/work/content
+      - ./data:/work/data
+      - ./outputs:/work/outputs
+    command: ["list"]
+    stop_grace_period: 30s

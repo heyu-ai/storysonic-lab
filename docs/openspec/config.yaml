@@ -4,14 +4,14 @@ context: |
   StorySonic Lab（故事聲音研究室）研究 Podcast 的故事風格與聲音表現。
   方向包括節目/RSS 蒐集、音檔下載、逐字稿與時間碼、故事結構與角色分析、
   語速/停頓/韻律/音效分析，以及 prompt 參考與訓練資料候選集整理。
-  目前為文件與研究初始化階段，尚無正式下載、轉錄或分析工具，技術棧未定。
+  已提供 Python 3.11–3.13 下載、WAV 轉檔、MLX/CPU 逐字稿與 gws Drive 上傳 CLI；原生 Mac 與 Docker 部署入口見 docs/deployment。故事／語音分析尚未實作。
   研究與實驗放在 docs/research；重要架構取捨放在 docs/adr；
   規格與變更僅使用 docs/openspec，不另建 repo 根目錄 openspec。
   人類閱讀的內容使用繁體中文台灣用語；檔名、slug、識別符與機器解析語法保持英文。
   保留 Requirement/Scenario、SHALL/MUST、WHEN/THEN 等 OpenSpec 語法。
   研究資料需可追溯來源、查核日期、音訊版本與方法，並分開記錄事實、推論與未驗證假設。
   訓練資料候選集應記錄用途與授權狀態；公開可下載不代表已取得訓練或再發布授權。
-  原始音檔、大型工作集及中間產物放在 Git 忽略的 data/ 或 outputs/。
+  下載音檔與 manifest 放 Git 忽略的 content/；其他大型工作集與中間產物放 data/ 或 outputs/。
 
 rules:
   proposal:

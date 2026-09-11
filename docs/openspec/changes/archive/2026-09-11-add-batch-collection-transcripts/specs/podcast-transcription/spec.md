@@ -1,0 +1,22 @@
+## ADDED Requirements
+
+### Requirement: Generate traceable transcripts
+The CLI SHALL transcribe verified local MP3 or M4A files using an explicitly selected MLX or faster-whisper backend and produce UTF-8 TXT, timestamped SRT and JSON containing raw segment text, display text, source SHA-256, model content fingerprint, engine version, language, generation time and reviewed=false. It SHALL preserve the spoken language and perform Traditional Chinese conversion only when requested. Invalid or nonfinite segment timestamps SHALL fail without a completion manifest.
+
+#### Scenario: Traditional Chinese output
+- **WHEN** the backend returns Simplified Chinese and Traditional output is requested
+- **THEN** JSON preserves raw text and TXT/SRT use converted text, with reviewed=false
+
+### Requirement: Resume portable derived artifacts
+The CLI SHALL identify derived results by source hash and recipe, keep relative paths under content, verify every output hash before skipping, rebuild incomplete or corrupt results, and retain separate versions for changed recipes. Completion metadata SHALL be written last. An interrupted episode SHALL be restarted on rerun while verified completed episodes SHALL be skipped.
+
+#### Scenario: Move to another computer
+- **WHEN** content and identical model files are moved to a different absolute path and the same command is rerun
+- **THEN** verified results are skipped without calling the ASR engine
+
+### Requirement: Convert without replacing source audio
+The convert command SHALL create 16 kHz mono PCM WAV from verified local audio, preserve original bytes, record the source SHA and conversion recipe, and reuse only verified outputs.
+
+#### Scenario: Decoder failure
+- **WHEN** ffmpeg fails on an episode
+- **THEN** the CLI reports failure and does not create a completed conversion record

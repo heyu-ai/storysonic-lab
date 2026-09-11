@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "storysonic-lab"
+version = "0.2.0"
+description = "Portable podcast downloads, transcription and verified Google Drive uploads"
+requires-python = ">=3.11,<3.14"
+dependencies = []
+
+[project.optional-dependencies]
+mac = ["mlx-whisper==0.4.3; sys_platform == 'darwin' and platform_machine == 'arm64'", "opencc-python-reimplemented==0.1.7"]
+cpu = ["faster-whisper==1.2.1", "opencc-python-reimplemented==0.1.7"]
+
+[project.scripts]
+storysonic = "storysonic.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["storysonic"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"

@@ -1,0 +1,12 @@
+# Explicitly opt in: docker compose -f compose.yaml -f compose.drive.yaml run --rm worker upload ...
+services:
+  worker:
+    environment:
+      GOOGLE_WORKSPACE_CLI_CREDENTIALS_FILE: /run/secrets/gws.json
+    volumes:
+      - type: bind
+        source: ${GWS_CREDENTIALS_FILE:?Set GWS_CREDENTIALS_FILE to an exported credentials JSON outside the repo}
+        target: /run/secrets/gws.json
+        read_only: true
+        bind:
+          create_host_path: false
