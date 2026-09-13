@@ -59,8 +59,11 @@ def validate_segments(segments, duration):
     previous = 0.0
     result = []
     for segment in segments:
-        start, end = float(segment['start']), float(segment['end'])
-        text = segment['text']
+        try:
+            start, end = float(segment['start']), float(segment['end'])
+            text = segment['text']
+        except (TypeError, KeyError) as exc:
+            raise ValueError(f'轉錄 segment 格式無效: {exc}') from exc
         if (not math.isfinite(start) or not math.isfinite(end) or start < previous or end < start
                 or start > duration or end > duration + 1 or not isinstance(text, str)):
             raise ValueError('轉錄時間碼或文字無效')

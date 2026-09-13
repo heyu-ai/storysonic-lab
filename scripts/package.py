@@ -1,5 +1,6 @@
 """Create a source-only transfer archive, including uncommitted implementation."""
 from pathlib import Path
+import subprocess
 import sys
 import tarfile
 
@@ -8,7 +9,7 @@ FILES = ['README.md', 'pyproject.toml', 'requirements-cpu.lock', 'uv.lock', 'pod
          'compose.yaml', 'compose.drive.yaml', '.dockerignore', '.gitignore', 'Makefile',
          'AGENTS.md', 'CLAUDE.md', '.spectra.yaml', 'content/README.md']
 DIRECTORIES = {'storysonic': '*.py', 'tests': '*.py', 'scripts': '*.py', 'docs/deployment': '*.md'}
-CREDENTIAL_PATTERNS = {'credentials', 'client_secret', '.env'}
+DOC_SUFFIXES = {'.md', '.csv', '.html', '.yaml', '.json'}
 
 
 def main():
@@ -18,9 +19,10 @@ def main():
     paths.extend(ROOT / n for n in ['scripts/setup-mac.sh', 'scripts/run-mac.sh'])
     for directory, pattern in DIRECTORIES.items():
         paths.extend((ROOT / directory).glob(pattern))
-    paths.extend(p for p in (ROOT / 'docs').rglob('*') if p.is_file()
-                 and p.suffix in ('.md', '.csv', '.html', '.yaml', '.json')
-                 and not any(pat in p.name.lower() for pat in CREDENTIAL_PATTERNS))
+    tracked = subprocess.check_output(
+        ['git', '-C', str(ROOT), 'ls-files', '--', 'docs/'], text=True
+    ).splitlines()
+    paths.extend(ROOT / p for p in tracked if Path(p).suffix in DOC_SUFFIXES)
     with tarfile.open(output, 'w:gz') as tar:
         for path in sorted(set(paths)):
             if path.is_symlink():
