@@ -36,8 +36,13 @@ class FakeGws:
                 if not any(f"'{p}' in parents" in q for p in file.get('parents', [])):
                     continue
                 if 'appProperties has' in q:
-                    key = file.get('appProperties', {}).get('storysonic_episode')
-                    if key and f"value='{key}'" in q:
+                    props = file.get('appProperties', {})
+                    matched = False
+                    for prop_key, prop_val in props.items():
+                        if f"key='{prop_key}'" in q and f"value='{prop_val}'" in q:
+                            matched = True
+                            break
+                    if matched:
                         files.append(file.copy())
                 elif f"name='{file['name']}'" in q:
                     files.append(file.copy())

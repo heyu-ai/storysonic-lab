@@ -85,7 +85,7 @@ Drive 整合使用 [Google Workspace CLI（gws）](https://github.com/googlework
 ```bash
 gws auth login -s drive
 
-# 預览已下載單集的上傳計畫
+# 預覽已下載單集的上傳計畫
 python3 -m storysonic upload --show detective-pig --all --dry-run
 
 # 上傳已下載單集至 podcasts.toml 的預設目的地

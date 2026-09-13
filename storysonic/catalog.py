@@ -18,7 +18,7 @@ AUDIO_FORMATS = {'audio/mpeg': ('mp3', 'audio/mpeg'), 'audio/mp3': ('mp3', 'audi
                  'audio/x-m4a': ('m4a', 'audio/mp4')}
 
 
-USER_AGENT = 'StorySonic-Lab/0.1 (podcast research)'
+USER_AGENT = 'StorySonic-Lab/0.2.0 (podcast research)'
 
 
 def validate_url(url):
@@ -133,7 +133,7 @@ def parse_feed(data, show):
             'show_id': show.id, 'show_name': show.name,
             'podcaster_id': show.podcaster_id, 'podcaster_name': show.podcaster_name,
             'feed_url': show.feed_url, 'guid': guid,
-            'title': (item.findtext('title') or guid).strip(),
+            'title': (item.findtext('title') or '').strip() or guid,
             'published': (item.findtext('pubDate') or '').strip(),
             'enclosure_url': url, 'declared_bytes': declared,
             'extension': extension, 'media_type': canonical_type,

@@ -4,7 +4,7 @@ Repo 現有成果是日期固定的研究與文件骨架。RSS 的 GUID 和 encl
 
 ## Goals / Non-Goals
 
-**Goals:** CLI 可先預覽、限量下載、斷線後重跑、核对本機檔案，並按 podcaster／節目上傳到指定 Drive 目錄。來源、下載與上傳紀錄可由 manifest 追溯。
+**Goals:** CLI 可先預覽、限量下載、斷線後重跑、核對本機檔案，並按 podcaster／節目上傳到指定 Drive 目錄。來源、下載與上傳紀錄可由 manifest 追溯。
 
 **Non-Goals:** 付費內容或 DRM、音訊轉錄／轉碼、排程、模型訓練、遠端刪除／同步覆蓋、跨機器同時上傳的分散式鎖。此次實測以豬探長一集為範圍，不自動下載全榜或全系列。
 
@@ -26,7 +26,7 @@ Repo 現有成果是日期固定的研究與文件骨架。RSS 的 GUID 和 encl
 
 ## Implementation Contract
 
-In scope：list、download、upload 三個命令，--show 選配置節目，--match 篩選標題，--limit／--all、--dry-run。download 只有加 --upload 才執行上傳；upload 僅處理已下载且通過本機雜湊的 manifest。--drive-folder 可覆寫設定根目錄，接受 Google Drive folder URL 或原始 ID。--config、--content-dir 可指定設定／儲存位置。無符合單集、未知 show、無效 manifest 或目的地回傳非零且有說明。dry-run 只列計畫，不寫 content、不呼叫 Drive。
+In scope：list、download、upload 三個命令，--show 選配置節目，--match 篩選標題，--limit／--all、--dry-run。download 只有加 --upload 才執行上傳；upload 僅處理已下載且通過本機雜湊的 manifest。--drive-folder 可覆寫設定根目錄，接受 Google Drive folder URL 或原始 ID。--config、--content-dir 可指定設定／儲存位置。無符合單集、未知 show、無效 manifest 或目的地回傳非零且有說明。dry-run 只列計畫，不寫 content、不呼叫 Drive。
 
 Manifest 包含 schema_version、episode_key、show_id／show_name、podcaster_id／podcaster_name、feed_url、guid、title、published、enclosure_url、declared_bytes、downloaded_at、bytes、sha256、md5、local_file（僅檔名）與 uploads（依根目錄 ID 索引）。manifest 為本機資料，不上傳憑證或 metadata 工作集。上傳前檢查 local_file 不越界、不是 symlink，依 manifest show／podcaster ID 確認分類。
 
@@ -38,7 +38,7 @@ Manifest 包含 schema_version、episode_key、show_id／show_name、podcaster_i
 - [gws 介面仍在演進、multipart 需記憶體] → 記錄已測版本、限制單集大小；本版失敗後從整檔重試，不宣稱 byte-range resume 或 resumable upload。
 - [兩台機器同時 create 仍可能競態] → 本版限定單一 writer；重跑若發現重複遠端 ID 直接報 conflict。
 - [共用硬碟權限依帳號而異] → 實際 canAddChildren 與 API 錯誤為準，不變更分享或成員。
-- [音檔可下载不代表其他用途已授權] → 本工具只整理來源與自用研究工作集，授權狀態留待資料集研究。
+- [音檔可下載不代表其他用途已授權] → 本工具只整理來源與自用研究工作集，授權狀態留待資料集研究。
 
 ## Sources
 

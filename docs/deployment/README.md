@@ -25,7 +25,7 @@ bash scripts/run-mac.sh transcribe --show detective-pig --limit 1 --language zh 
 bash scripts/run-mac.sh convert --show detective-pig --limit 1
 ```
 
-MLX 預設模型為 `mlx-community/whisper-large-v3-turbo`。首次轉錄會將模型下載至 `data/models/`；重跑使用快取。轉錄會直接读取 MP3/M4A，所以 `convert` 是另存 WAV 的選配步驟。
+MLX 預設模型為 `mlx-community/whisper-large-v3-turbo`。首次轉錄會將模型下載至 `data/models/`；重跑使用快取。轉錄會直接讀取 MP3/M4A，所以 `convert` 是另存 WAV 的選配步驟。
 
 可用 `--model-dir /Volumes/Podcast/models/whisper-large-v3-turbo` 指定完整本地模型；MLX 目錄需含 config 及 safetensors/npz 權重。不要將 faster-whisper 的 CTranslate2 模型交給 MLX。中文專題用 `--language zh`；包含英文的全榜批次保留 auto。
 
@@ -43,7 +43,7 @@ bash scripts/run-mac.sh transcribe --all-shows --all --traditional > outputs/tra
 bash scripts/run-mac.sh convert --all-shows --all > outputs/convert.jsonl 2> outputs/convert.stderr
 ```
 
-每個命令各自執行，上一個失敗可先修復再重跑，也可對已完成下载的單集進行下一階段。`--all-shows` 只改節目範圍，未加 `--all` 仍是每個節目最多 3 集；`--limit 1` 可做每節目一集驗證。RSS 可能隨時間變動，範圍限當次 feed 可取得的 MP3/M4A，包含預告、特別節目；付費或已下架音訊不在內。
+每個命令各自執行，上一個失敗可先修復再重跑，也可對已完成下載的單集進行下一階段。`--all-shows` 只改節目範圍，未加 `--all` 仍是每個節目最多 3 集；`--limit 1` 可做每節目一集驗證。RSS 可能隨時間變動，範圍限當次 feed 可取得的 MP3/M4A，包含預告、特別節目；付費或已下架音訊不在內。
 
 下載上限預設每集 256 MiB，以 `--max-mb` 調整。每集開始前檢查至少保留 5 GiB，`--reserve-gb 20` 可提高。2026-09-11 feed 檢查約 2,687 集、588 小時，應預留數十 GB 給來源音檔，若全量另存 WAV 還需約 63 GiB。這是容量估算，不是完成數量。程序鎖只防同一 content root 的多個 writer；不要讓兩台機器同時上傳相同 Drive 目錄。
 
@@ -87,7 +87,7 @@ bash scripts/run-mac.sh upload --all-shows --all --include-transcripts
 
 若新機尚無 OAuth client 設定，依 gws 文件執行 `gws auth setup`，或配置 Desktop OAuth client 後登入。程式會使用 `podcasts.toml` 的 Drive 根目錄；可加 `--drive-folder FOLDER_ID` 覆寫。只有音檔時省略 `--include-transcripts`；明確要求逐字稿但尚未產生時會報錯。上傳不改分享權限。
 
-分類為 `Podcaster [id]/Show [id]/`，原始音檔在節目目錄，逐字稿在 `transcripts/<episode-key>/<recipe-id>/`。每個檔案查遠端、核對大小/MD5，成功後記錄 Drive ID；中断後重跑可補查已建立但來不及記錄的檔案。
+分類為 `Podcaster [id]/Show [id]/`，原始音檔在節目目錄，逐字稿在 `transcripts/<episode-key>/<recipe-id>/`。每個檔案查遠端、核對大小/MD5，成功後記錄 Drive ID；中斷後重跑可補查已建立但來不及記錄的檔案。
 
 ## 6. Docker 選項
 

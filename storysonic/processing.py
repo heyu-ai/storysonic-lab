@@ -134,8 +134,9 @@ def process_episode(manifest, root, *, engine=None, traditional=False):
         try:
             verify_completion(completion, data, root)
             return completion, 'transcript_skipped' if engine else 'conversion_skipped'
-        except (ValueError, OSError, KeyError, TypeError):
-            # Completion is the commit marker; invalidate it before repairing any file.
+        except (ValueError, OSError) as exc:
+            import sys
+            print(f'{{"event":"warn","message":"completion 驗證失敗，重新處理: {exc}"}}', file=sys.stderr, flush=True)
             completion.unlink()
     duration = audio_duration(audio)
     with tempfile.TemporaryDirectory(prefix='.processing-', dir=directory) as tmp:

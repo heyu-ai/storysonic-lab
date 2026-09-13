@@ -82,7 +82,7 @@ def local_episodes(show, root, on_error=None):
     return episodes
 
 
-ERRORS = (ValueError, OSError, HTTPException, RuntimeError, TypeError, KeyError)
+ERRORS = (ValueError, OSError, HTTPException, RuntimeError)
 
 
 def run(args):

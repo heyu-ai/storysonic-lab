@@ -163,7 +163,7 @@ class DriveUploader:
             parent = self.ensure_folder(episode, completion.parent.name)
             for name, hashes in record['files'].items():
                 identity = f"{data['episode_key']}:{completion.parent.name}:{name}"
-                matches = self.client.find(f'{quote(parent)} in parents and name={quote(name)}', self.drive_id)
+                matches = self.client.find(f"{quote(parent)} in parents and appProperties has {{ key='storysonic_artifact' and value={quote(identity)} }}", self.drive_id)
                 if len(matches) > 1:
                     raise ValueError(f'Drive 逐字稿檔案重複: {name}')
                 status = 'skipped' if matches else 'uploaded'

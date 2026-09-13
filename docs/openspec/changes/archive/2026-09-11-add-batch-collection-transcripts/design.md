@@ -12,7 +12,7 @@
 
 使用原生 MLX 作為 Apple Silicon 的操作預設，Docker 使用 faster-whisper CPU。明確指定 backend，不做靜默切換。依賴 extras 固定直接版本；模型檔案雜湊納入 recipe，搬移相同模型仍得到相同識別。模型預設從 Hugging Face 下載到可搬移 cache，也可指定本地模型目錄。
 
-所有 content 路徑均相對於選定 root，CLI 設定預設從當前目錄讀取。選取 `--all-shows` 後 limit 為每個節目，全部單集仍需 `--all`。失敗輸出 JSON error 並继续其餘節目，最後非零結束；進度以每集開始與完成事件呈現。Ctrl-C/SIGTERM 釋放鎖，不標記半成品成功。
+所有 content 路徑均相對於選定 root，CLI 設定預設從當前目錄讀取。選取 `--all-shows` 後 limit 為每個節目，全部單集仍需 `--all`。失敗輸出 JSON error 並繼續其餘節目，最後非零結束；進度以每集開始與完成事件呈現。Ctrl-C/SIGTERM 釋放鎖，不標記半成品成功。
 
 續跑粒度採單集：一集所有產物及 hash manifest 原子寫入後才算完成，重跑先核對。不同音檔 SHA、模型內容、backend 版本或語言設定有不同 recipe 目錄。中斷單集重跑，已完成單集跳過。這讓跨機續跑不依賴額外資料庫。所有來源音檔保留，衍生物置於 `derived/<episode-key>/<recipe-id>/`，不混入既有音檔 manifest 掃描。
 
