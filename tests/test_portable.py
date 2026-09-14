@@ -1,17 +1,18 @@
-from contextlib import redirect_stdout
 import io
 import json
-from pathlib import Path
 import shutil
 import tempfile
 import unittest
+from contextlib import redirect_stdout
+from pathlib import Path
 from unittest.mock import Mock, patch
+
+from test_catalog import SHOW, feed, item
+from test_download import Response
 
 from storysonic.__main__ import main
 from storysonic.catalog import parse_feed
 from storysonic.download import download_episode, read_manifest
-from test_catalog import SHOW, feed, item
-from test_download import Response
 
 
 class PortableTests(unittest.TestCase):
@@ -21,7 +22,7 @@ class PortableTests(unittest.TestCase):
             for mime in ('audio/mp4', 'audio/m4a', 'audio/x-m4a'):
                 episode = parse_feed(feed(item(guid=mime).replace('audio/mpeg', mime)), SHOW)[0]
                 audio = b'\x00\x00\x00\x18ftypM4A ' + b'x' * 50
-                manifest, _ = download_episode(episode, root, opener=lambda _: Response(audio, kind=mime))
+                manifest, _ = download_episode(episode, root, opener=lambda _: Response(audio, kind=mime))  # noqa: B023
                 data = read_manifest(manifest, root)
                 self.assertTrue(data['local_file'].endswith('.m4a'))
                 self.assertEqual(data['media_type'], 'audio/mp4')
@@ -46,7 +47,7 @@ class PortableTests(unittest.TestCase):
                 code = main(['download', '--all-shows', '--all', '--dry-run', '--config', str(config), '--content-dir', str(root)])
             events = [json.loads(x) for x in output.getvalue().splitlines()]
             self.assertEqual(code, 1)
-            self.assertEqual(sum(e['event'] == 'planned' for e in events), 9)
+            self.assertEqual(sum(e['event'] == 'planned' for e in events), 11)
             self.assertFalse(root.exists())
 
     def test_low_space_stops_before_download(self):
@@ -70,6 +71,7 @@ class PortableTests(unittest.TestCase):
 
     def test_sigterm_interrupts_and_releases_lock(self):
         import signal
+
         from storysonic.download import content_lock
         with tempfile.TemporaryDirectory() as tmp, redirect_stdout(io.StringIO()):
             with patch('storysonic.__main__.fetch_episodes', return_value=parse_feed(feed(item()), SHOW)), \

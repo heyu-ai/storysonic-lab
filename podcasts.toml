@@ -71,3 +71,17 @@ name = "強哥為你說故事"
 podcaster_id = "ifkids"
 podcaster_name = "如果兒童劇團"
 feed_url = "https://feed.firstory.me/rss/user/cld0588if003s01v77vwe7tl3"
+
+[[shows]]
+id = "kids-news"
+name = "小新聞動動腦"
+podcaster_id = "kids-news-team"
+podcaster_name = "動動腦小隊"
+feed_url = "https://feeds.soundon.fm/podcasts/a7a83aa1-0784-4f86-a7f0-807af1a78541.xml"
+
+[[shows]]
+id = "lanren-mom-stories"
+name = "欖仁媽媽說故事"
+podcaster_id = "lanren-mom"
+podcaster_name = "欖仁媽媽/ Samantha"
+feed_url = "https://feed.firstory.me/rss/user/ckkos7dhn3ahx0876tc7nobga"
