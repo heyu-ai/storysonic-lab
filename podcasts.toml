@@ -1,0 +1,73 @@
+# Seed catalogue from the 2026-09-10 research snapshot; edit or add shows as needed.
+[drive]
+folder = "1gae0A1FcXlkWdGZeFrE4SEs6X-cMXlmj"
+
+[[shows]]
+id = "detective-pig"
+name = "豬探長推理故事集"
+podcaster_id = "ifkids"
+podcaster_name = "如果兒童劇團"
+feed_url = "https://feed.firstory.me/rss/user/cklw2tvilfnda0804tdm3oxho"
+
+[[shows]]
+id = "once-upon-a-time"
+name = "從前從前"
+podcaster_id = "fairy-aunt"
+podcaster_name = "童話阿姨"
+feed_url = "https://feed.firstory.me/rss/user/ckg2mhkljssl708756xu1zvcy"
+
+[[shows]]
+id = "english-stories"
+name = "聽故事學英文"
+podcaster_id = "sandy"
+podcaster_name = "Sandy采聿老師"
+feed_url = "https://feed.firstory.me/rss/user/ckmhws7ybbkfv0822cjr5wbb4"
+
+[[shows]]
+id = "otter-mom"
+name = "水獺媽媽巧巧話｜聽巧慧說故事學台語！"
+podcaster_id = "chiaohui-su"
+podcaster_name = "蘇巧慧"
+feed_url = "https://anchor.fm/s/2e916170/podcast/rss"
+
+[[shows]]
+id = "story-together"
+name = "一起說故事"
+podcaster_id = "story-together"
+podcaster_name = "一起說故事"
+feed_url = "https://feed.firstory.me/rss/user/ckesn2sbvx5060839umop16go"
+
+[[shows]]
+id = "story-steam"
+name = "顛覆！故事STEAM"
+podcaster_id = "ic975"
+podcaster_name = "IC之音竹科廣播｜小青姐姐主持"
+feed_url = "https://www.ic975.com/feed/steam/"
+
+[[shows]]
+id = "jiajia-stories"
+name = "佳佳老師說故事"
+podcaster_id = "jiajia"
+podcaster_name = "佳佳老師"
+feed_url = "https://feed.firstory.me/rss/user/ckr33bhnbbued0859cydc9e7v"
+
+[[shows]]
+id = "mom-dad-stories"
+name = "媽爹講故事"
+podcaster_id = "mom-dad"
+podcaster_name = "MOM&DAD"
+feed_url = "https://feed.firstory.me/rss/user/ckgvv1m2ah8re0903njm7tcun"
+
+[[shows]]
+id = "our-bedtime-stories"
+name = "我們家的睡前故事"
+podcaster_id = "our-bedtime"
+podcaster_name = "我們家的睡前故事"
+feed_url = "https://feed.firstory.me/rss/user/ckf0ooexigq7u0839rk1lfd6k"
+
+[[shows]]
+id = "strong-stories"
+name = "強哥為你說故事"
+podcaster_id = "ifkids"
+podcaster_name = "如果兒童劇團"
+feed_url = "https://feed.firstory.me/rss/user/cld0588if003s01v77vwe7tl3"

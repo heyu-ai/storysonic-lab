@@ -30,3 +30,5 @@ StorySonic Lab 的文件以研究、決策與規格分工。這個結構參考 y
 - [首份研究：台灣兒童故事 Podcast 與豬探長](research/2026-09-10-taiwan-kids-podcasts/README.md)
 - [ADR 範本](adr/template.md)
 - [Spectra 工作流程](openspec/README.md)
+
+- [部署與搬機](deployment/README.md)：Apple Silicon 原生 MLX、Docker CPU、content 續跑與 Google Drive。

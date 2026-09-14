@@ -17,3 +17,16 @@
 .venv/
 __pycache__/
 *.py[cod]
+
+# Generated podcast content stays local; keep only its guide in Git.
+/content/*
+!/content/README.md
+*.[mM][pP]3
+.spectra/
+docs/openspec/.vector-search.db*
+*.[mM]4[aA]
+*.[wW][aA][vV]
+/dist/
+*.egg-info/
+credentials*.json
+client_secret*.json

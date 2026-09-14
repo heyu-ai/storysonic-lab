@@ -8,7 +8,7 @@
 |---|---|
 | [../../.spectra.yaml](../../.spectra.yaml) | Spectra 專案設定：`spec_dir`、語系與 AI 工具 |
 | [config.yaml](config.yaml) | `spec-driven` workflow schema、專案 context 與 artifact 規則 |
-| [specs/](specs/) | 已完成變更歸檔後的穩定規格；初始化時為空 |
+| [specs/](specs/) | 已完成變更歸檔後的穩定規格 |
 | [changes/](changes/) | 進行中的 proposal、design、delta specs 與 tasks |
 | [changes/archive/](changes/archive/) | 已完成的變更歷史 |
 
@@ -27,7 +27,7 @@ spectra list --parked
 spectra validate --all --strict
 ```
 
-初始化以 Spectra 2.3.1 驗證。空規格／change 清單是目前專案狀態；尚未有功能規格時，不應把空清單的驗證成功描述成實作測試通過。
+初始化以 Spectra 2.3.1 驗證。目前穩定規格包含 [Podcast 下載](specs/podcast-download/spec.md) 與 [Drive 上傳](specs/podcast-drive-upload/spec.md)，對應 [2026-09-11 變更歸檔](changes/archive/2026-09-11-add-podcast-download-drive/proposal.md)。實作與真實環境驗證結果見 [下載器驗證紀錄](../research/2026-09-11-downloader-validation.md)。
 
 ## 生命週期
 
@@ -69,3 +69,5 @@ Change 與 capability 使用描述性的英文 kebab-case 名稱。新功能、�
 ## 與其他文件的關係
 
 [Research](../research/README.md) 提供證據；[ADR](../adr/README.md) 記錄長期取捨；OpenSpec 描述可驗收的行為與當次變更。研究中的候選模型、推測與未驗證能力不會自動成為 stable spec。
+
+已加入 [逐字稿與轉檔](specs/podcast-transcription/spec.md)、[可攜部署](specs/portable-deployment/spec.md) 規格，對應 [部署變更歸檔](changes/archive/2026-09-11-add-batch-collection-transcripts/proposal.md)。原生 Mac、Docker 與搬機操作見 [部署指南](../deployment/README.md)。

@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!pyproject.toml
+!requirements-cpu.lock
+!storysonic/
+storysonic/**
+!storysonic/*.py
+!scripts/
+scripts/**
+!scripts/install-gws.py
